@@ -1,0 +1,16 @@
+.hamb {
+    display: none;
+    cursor: pointer;
+    border: none;
+    padding-top: 6px;
+    background-color: transparent;
+}
+
+.hamb span {
+    display: block;
+    background-color: #f3f3f3f3;
+    height: 3px;
+    width: 28px;
+    margin: 10px;
+    border-radius: 2px;
+}
