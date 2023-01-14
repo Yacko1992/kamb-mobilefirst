@@ -31,7 +31,7 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="inicio">
         <div class="container">
 
             <div class="container-logo">
@@ -42,7 +42,7 @@
                 <div class="container-information">
 
                     <ul class="menu-information">
-                        <li><img src="images/1.png" alt="Ubicación" /> Bravo #823 Veracruz, Ver</li>
+                        <li id="info"><img src="images/1.png" alt="Ubicación" /> Bravo #823 Veracruz, Ver</li>
                         <li><img src="images/2.png" alt="Teléfono" /> +52 229 242 0316</li>
                         <li><img src="images/3.png" alt="Correo" /> kambalayatours@gmail.com</li>
                     </ul>
@@ -50,25 +50,25 @@
 
                 <div class="container-menu">
                     <ul class="menu">
-                        <li class="active"> <a href="#inicio">Inicio</a> </li>
-                        <li> <a href="#about">Nosotros</a> </li>
-                        <li><a href="#travel">Viajes</a></li>
-                        <li><a href="#contact">Contactanos</a></li>
+                        <li class="menu-item"> <a class="active" href="#inicio">Inicio</a> </li>
+                        <li class="menu-item"> <a href="#about">Nosotros</a> </li>
+                        <li class="menu-item"><a href="#travel">Viajes</a></li>
+                        <li class="menu-item"><a href="#contact">Contacto</a></li>
                     </ul>
 
-                    <div class="cont-hamb">
-                        <button class="hamb" type="button">
-                            <span class="br-1"></span>
-                            <span class="br-2"></span>
-                            <span class="br-3"></span>
-                        </button>
-                        </di>
-                    </div>
+
+                    <button class="hamb" type="button">
+                        <span class="br-1"></span>
+                        <span class="br-2"></span>
+                        <span class="br-3"></span>
+                    </button>
+
+
                 </div>
             </div>
     </header>
 
-    <main class="main">
+    <main class="container-main">
         <section class="hero-image">
             <div class="img-title">
                 <div class="title">
@@ -86,26 +86,44 @@
                         </button>
                     </div>
                 </div>
-                <div class="img">
+                <div id="img">
                     <img src="./images/logo.png" alt="Colores del Logo de Kambalaya Tours">
                 </div>
 
             </div>
         </section>
-        <section class="container-about" id="about">
-            <section class="about">
-                <h2 class="subtitle">
-                    Sobre Nosotros
-                </h2>
-            </section>
+
+        <section class="about seccion">
+
+            <h2 class="subtitle" id="about">
+                Sobre Nosotros
+            </h2>
+
+        </section>
+
+        <section class="travel seccion">
+
+            <h2 class="subtitle" id="travel">
+                Viajes
+            </h2>
+
+        </section>
+
+        <section class="contact seccion">
+
+            <h2 class="subtitle" id="contact">
+                Contacto
+            </h2>
+
         </section>
 
     </main>
-<footer class="footer">
-    
-</footer>
 
     <!--https://www.instagram.com/kambalayatours/-->
+
+    <script src="./js/script.js"></script>
+    
+
 
 </body>
 

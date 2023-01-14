@@ -1,16 +1,35 @@
-.hamb {
-    display: none;
-    cursor: pointer;
-    border: none;
-    padding-top: 6px;
-    background-color: transparent;
+@media screen and (max-width: 952px) {
+    
 }
 
-.hamb span {
-    display: block;
-    background-color: #f3f3f3f3;
-    height: 3px;
-    width: 28px;
-    margin: 10px;
-    border-radius: 2px;
+@media screen and (max-width: 858px) {
+    .hamb {
+        display: block;
+    }
+
+    .menu {
+        position: fixed;
+        width: 100vw;
+        height: calc(100% - 90px);
+        top: -100vh;
+        text-align: center;
+        transition: all .4s;
+        flex-direction: column;
+    }
+
+    .menu li {
+        margin: 30px 0 0 0;
+        line-height: 30px;
+    }
+
+    .menu li:hover {
+        background: none;
+    }
+}
+
+@media screen and (max-width: 858px) and (orientation: landscape) {
+    .menu {
+        overflow: scroll;
+        height: calc(100% - 50px); /*50px lo puse al azar, hay que sacar bien el alto en caso de estar en horizontal el equipo*/
+    }
 }
