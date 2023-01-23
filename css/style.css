@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
 :root {
-    --bck-black : rgba(0, 0, 0, .35);
+    --bck-black: rgba(0, 0, 0, .35);
 }
 
 html {
@@ -21,13 +21,13 @@ html {
 .container {
     background: url(../images/header-bg.jpg);
     min-height: 14.4vh;
-    display   : flex;
-    width     : 100%;
+    display: flex;
+    width: 100%;
 }
 
 .container.pined {
-    position  : fixed;
-    z-index   : 999;
+    position: fixed;
+    z-index: 999;
     top: 0;
 }
 
@@ -98,7 +98,8 @@ html {
     padding: 2px;
 }
 
-.menu li a.active, li a:hover {
+.menu li a.active,
+li a:hover {
     background-color: rgba(0, 0, 0, .4);
     padding: 5px 10px;
     transition: .2s;
@@ -180,7 +181,7 @@ html {
     justify-content: center;
     font-size: 1.5rem;
     border: none;
-    background-color: rgba(23,162,184,.7);
+    background-color: rgba(23, 162, 184, .7);
     padding: 7px;
     margin-top: 20px;
 }
@@ -237,8 +238,20 @@ html {
 
 .container-cards {
     width: 100%;
-    height: 200px;
-    background-color: red;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.team {
+    width: 70%;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    display: block;
 }
 
 .row {
@@ -248,9 +261,7 @@ html {
     margin-left: -15px;
 }
 
-.card {
-
-}
+.content-card {}
 
 /***************************************************************** T R A V E L *****************************************************************/
 
