@@ -253,7 +253,7 @@ li a:hover {
     display: block;
 }
 
-.container-cards {
+.cards {
     display: flex;
     justify-content: center;
     width: 80%;
@@ -267,7 +267,7 @@ li a:hover {
     margin-right: 20px;
 }
 
-.card img {
+.card__img {
     display: block;
     width: 100px;
     margin: 20px auto;
@@ -275,7 +275,7 @@ li a:hover {
     background-size: cover;
 }
 
-.name-place {
+.card__texts {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -283,7 +283,7 @@ li a:hover {
     padding-bottom: 0;
 }
 
-.name {
+.card__title {
     margin-bottom: 0;
 }
 
